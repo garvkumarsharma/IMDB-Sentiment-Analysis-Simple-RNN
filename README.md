@@ -2,7 +2,7 @@
 
 **Classify any movie review as Positive or Negative in real time — powered by a Recurrent Neural Network trained from scratch on 50,000 IMDB reviews.**
 
-[![Live Demo](https://img.shields.io/badge/%F0%9F%9A%80_Live_Demo-imdb--sentiment--rnn--garv.streamlit.app-2dd4bf?style=for-the-badge)](https://imdb-sentiment-rnn-garv.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/%F0%9F%9A%80_Live_Demo-sentiment-analysis-simple-rnn-garv.streamlit.app-2dd4bf?style=for-the-badge)](https://sentiment-analysis-simple-rnn-garv.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.17-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-3-D00000?style=flat&logo=keras&logoColor=white)](https://keras.io/)
@@ -34,7 +34,7 @@ Type any movie review into the app, and it will:
 
 ## 🔗 Live Demo
 
-> ### 👉 **[imdb-sentiment-rnn-garv.streamlit.app](https://imdb-sentiment-rnn-garv.streamlit.app/)**
+> ### 👉 **[sentiment-analysis-simple-rnn-garv.streamlit.app]([https://imdb-sentiment-rnn-garv.streamlit.app/](https://sentiment-analysis-simple-rnn-garv.streamlit.app/))**
 
 No installation needed — open the link, type in a review, and click Classify.
 
