@@ -2,13 +2,13 @@
 
 **Classify any movie review as Positive or Negative in real time — powered by a Recurrent Neural Network trained from scratch on 50,000 IMDB reviews.**
 
-[![Live Demo](https://img.shields.io/badge/%F0%9F%9A%80_Live_Demo-sentiment-analysis-simple-rnn-garv.streamlit.app-2dd4bf?style=for-the-badge)](https://sentiment-analysis-simple-rnn-garv.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/%F0%9F%9A%80_Live_Demo-sentiment--analysis--simple--rnn--garv.streamlit.app-2dd4bf?style=for-the-badge)](https://sentiment-analysis-simple-rnn-garv.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.17-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Keras](https://img.shields.io/badge/Keras-3-D00000?style=flat&logo=keras&logoColor=white)](https://keras.io/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
-[**Live Demo**](https://imdb-sentiment-rnn-garv.streamlit.app/) · [**Report a Bug**](https://github.com/garvkumarsharma/IMDB-Sentiment-Analysis-Simple-RNN/issues) · [**Request a Feature**](https://github.com/garvkumarsharma/IMDB-Sentiment-Analysis-Simple-RNN/issues)
+[**Live Demo**](https://sentiment-analysis-simple-rnn-garv.streamlit.app/) · [**Report a Bug**](https://github.com/garvkumarsharma/IMDB-Sentiment-Analysis-Simple-RNN/issues) · [**Request a Feature**](https://github.com/garvkumarsharma/IMDB-Sentiment-Analysis-Simple-RNN/issues)
 
 ---
 
@@ -34,7 +34,7 @@ Type any movie review into the app, and it will:
 
 ## 🔗 Live Demo
 
-> ### 👉 **[sentiment-analysis-simple-rnn-garv.streamlit.app]([https://imdb-sentiment-rnn-garv.streamlit.app/](https://sentiment-analysis-simple-rnn-garv.streamlit.app/))**
+> ### 👉 **[sentiment-analysis-simple-rnn-garv.streamlit.app](https://sentiment-analysis-simple-rnn-garv.streamlit.app/)**
 
 No installation needed — open the link, type in a review, and click Classify.
 
@@ -125,10 +125,11 @@ IMDB-Sentiment-Analysis-Simple-RNN/
 ├── embeddings.ipynb         # Standalone notebook exploring word embeddings from first principles
 ├── simple_rnn_imdb.h5        # Trained model weights (Keras H5 format)
 ├── requirements.txt          # Python dependencies
+├── runtime.txt                # Pins Python 3.11 for Streamlit Cloud deployment
 ├── .gitignore                # Excludes .venv/, __pycache__/, .ipynb_checkpoints/
 └── README.md
 ```
-> **Note:** `simpleRNN.ipynb` produces `simple_rnn_imdb.h5`, which `main.py` loads directly at runtime. `prediction.ipynb` and `embeddings.ipynb` are kept as standalone reference notebooks for experimentation outside the web UI.
+> **Note:** `simpleRNN.ipynb` produces `simple_rnn_imdb.h5`, which `main.py` loads directly at runtime. `prediction.ipynb` and `embeddings.ipynb` are kept as standalone reference notebooks for experimentation outside the web UI. `runtime.txt` ensures Streamlit Cloud provisions Python 3.11 instead of a newer version that lacks compatible TensorFlow wheels.
 
 ---
 
@@ -175,7 +176,7 @@ The app will open at `http://localhost:8501`. Type in a review and click **Class
 
 This project is deployed on **Streamlit Community Cloud**, connected directly to this GitHub repository.
 
-**Live app:** [imdb-sentiment-rnn-garv.streamlit.app](https://imdb-sentiment-rnn-garv.streamlit.app/)
+**Live app:** [sentiment-analysis-simple-rnn-garv.streamlit.app](https://sentiment-analysis-simple-rnn-garv.streamlit.app/)
 
 If you'd like to deploy your own fork:
 
